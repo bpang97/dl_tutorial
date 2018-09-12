@@ -1,0 +1,21 @@
+{
+	"Modality": "CT",
+	"PatientPosition": "FFS",
+	"SeriesDescription": "MPR_Reformatted",
+	"ProtocolName": "MPR_Reformatted",
+	"ImageType": ["DERIVED", "SECONDARY", "AXIAL", "REFOMATTED"],
+	"RawImage": false,
+	"SeriesNumber": 10000,
+	"AcquisitionNumber": 1,
+	"SliceThickness": 0.489237,
+	"ReconMatrixPE": 512,
+	"ImageOrientationPatientDICOM": [
+		1,
+		0,
+		0,
+		0,
+		0,
+		-1	],
+	"ConversionSoftware": "dcm2niix",
+	"ConversionSoftwareVersion": "v1.0.20180622 (JP2:OpenJPEG) GCC6.1.0"
+}

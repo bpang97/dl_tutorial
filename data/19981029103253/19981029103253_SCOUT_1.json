@@ -1,0 +1,25 @@
+{
+	"Modality": "CT",
+	"Manufacturer": "GE",
+	"ManufacturersModelName": "Discovery_STE",
+	"PatientPosition": "FFS",
+	"SoftwareVersions": "06MW34.6",
+	"SeriesDescription": "SCOUT",
+	"ProtocolName": "SCOUT",
+	"ScanOptions": "SCOUT_MODE",
+	"ImageType": ["ORIGINAL", "PRIMARY", "LOCALIZER"],
+	"SeriesNumber": 1,
+	"AcquisitionTime": "10:00:35.000000",
+	"AcquisitionNumber": 2,
+	"XRayExposure": 38,
+	"ReconMatrixPE": 696,
+	"ImageOrientationPatientDICOM": [
+		1,
+		0,
+		0,
+		0,
+		0,
+		-1	],
+	"ConversionSoftware": "dcm2niix",
+	"ConversionSoftwareVersion": "v1.0.20180622 (JP2:OpenJPEG) GCC6.1.0"
+}

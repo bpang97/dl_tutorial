@@ -1,0 +1,26 @@
+{
+	"Modality": "CT",
+	"Manufacturer": "GE",
+	"ManufacturersModelName": "Discovery_STE",
+	"PatientPosition": "FFS",
+	"SoftwareVersions": "06MW34.6",
+	"SeriesDescription": "CORONAL_CHEST",
+	"ProtocolName": "CORONAL_CHEST",
+	"ScanOptions": "HELICAL_MODE",
+	"ImageType": ["DERIVED", "SECONDARY", "REFORMATTED"],
+	"RawImage": false,
+	"SeriesNumber": 106,
+	"AcquisitionTime": "10:03:50.000000",
+	"AcquisitionNumber": 1,
+	"XRayExposure": 2,
+	"ReconMatrixPE": 512,
+	"ImageOrientationPatientDICOM": [
+		0,
+		1,
+		0,
+		0,
+		0,
+		-1	],
+	"ConversionSoftware": "dcm2niix",
+	"ConversionSoftwareVersion": "v1.0.20180622 (JP2:OpenJPEG) GCC6.1.0"
+}

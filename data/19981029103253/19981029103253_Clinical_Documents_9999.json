@@ -1,0 +1,21 @@
+{
+	"Modality": "CT",
+	"ManufacturersModelName": "DR-2080C",
+	"DeviceSerialNumber": "CV321282",
+	"PatientPosition": "FFS",
+	"SoftwareVersions": "3.0.3",
+	"SeriesDescription": "Clinical_Documents",
+	"ProtocolName": "Clinical_Documents",
+	"ImageType": ["ORIGINAL", "SECONDARY"],
+	"SeriesNumber": 9999,
+	"ReconMatrixPE": 2200,
+	"ImageOrientationPatientDICOM": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0	],
+	"ConversionSoftware": "dcm2niix",
+	"ConversionSoftwareVersion": "v1.0.20180622 (JP2:OpenJPEG) GCC6.1.0"
+}

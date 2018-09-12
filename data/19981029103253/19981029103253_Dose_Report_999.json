@@ -1,0 +1,22 @@
+{
+	"Modality": "CT",
+	"Manufacturer": "GE",
+	"ManufacturersModelName": "Discovery_STE",
+	"PatientPosition": "HFS",
+	"SeriesDescription": "Dose_Report",
+	"ProtocolName": "Dose_Report",
+	"ImageType": ["DERIVED", "SECONDARY", "SCREEN", "SAVE"],
+	"RawImage": false,
+	"SeriesNumber": 999,
+	"AcquisitionTime": "09:59:54.000000",
+	"ReconMatrixPE": 512,
+	"ImageOrientationPatientDICOM": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0	],
+	"ConversionSoftware": "dcm2niix",
+	"ConversionSoftwareVersion": "v1.0.20180622 (JP2:OpenJPEG) GCC6.1.0"
+}

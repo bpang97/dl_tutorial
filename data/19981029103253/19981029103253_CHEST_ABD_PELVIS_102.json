@@ -1,0 +1,25 @@
+{
+	"Modality": "CT",
+	"Manufacturer": "GE",
+	"ManufacturersModelName": "Discovery_STE",
+	"PatientPosition": "FFS",
+	"SoftwareVersions": "06MW34.6",
+	"SeriesDescription": "CHEST_ABD_PELVIS",
+	"ProtocolName": "CHEST_ABD_PELVIS",
+	"ScanOptions": "HELICAL_MODE",
+	"ImageType": ["ORIGINAL", "SECONDARY", "AXIAL"],
+	"SeriesNumber": 102,
+	"AcquisitionTime": "10:03:50.000000",
+	"AcquisitionNumber": 1,
+	"XRayExposure": 2,
+	"ReconMatrixPE": 512,
+	"ImageOrientationPatientDICOM": [
+		1,
+		0,
+		0,
+		0,
+		1,
+		0	],
+	"ConversionSoftware": "dcm2niix",
+	"ConversionSoftwareVersion": "v1.0.20180622 (JP2:OpenJPEG) GCC6.1.0"
+}
