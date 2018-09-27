@@ -83,7 +83,8 @@ def create_classifier(X, training):
     block4, pool4 = conv_block(pool3, 64, training, name='block04')
     block5, pool5 = conv_block(pool4, 96, training, name='block05')
     block6, pool6 = conv_block(pool5, 128, training, name='block06')
-    
+    print('pool6')
+    print(pool6.shape)
     pool6 = tf.reshape(pool6, shape=[-1, 1, 1, 1152]) 
     pred = tf.layers.conv2d(pool6, 2, (1, 1), name='pred', padding='same')
     pred = tf.contrib.layers.flatten(pred)
