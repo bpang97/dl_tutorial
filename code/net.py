@@ -105,14 +105,29 @@ def create_classifier2(X, training):
       (tf.Tensor) layer : output layer
 
     """
-    block1, pool1 = conv_block(X, 8, training, name='block01')
-    block2, pool2 = conv_block(pool1, 16, training, name='block02')
-    block3, pool3 = conv_block(pool2, 32, training, name='block03')
-    block4, pool4 = conv_block(pool3, 64, training, name='block04')
-    block5, pool5 = conv_block(pool4, 96, training, name='block05')
-    block6, pool6 = conv_block(pool5, 128, training, name='block06')
+    print("X: ", X.shape)
     
+    block1, pool1 = conv_block(X, 8, training, name='block01')
+    print("pool1: ", pool1.shape)
+    
+    block2, pool2 = conv_block(pool1, 16, training, name='block02')
+    print("pool2: ", pool2.shape)
+
+    block3, pool3 = conv_block(pool2, 32, training, name='block03')
+    print("pool3: ", pool3.shape)
+
+    block4, pool4 = conv_block(pool3, 64, training, name='block04')
+    print("pool4: ", pool4.shape)
+
+    block5, pool5 = conv_block(pool4, 96, training, name='block05')
+    print("pool5: ", pool5.shape)
+
+    block6, pool6 = conv_block(pool5, 128, training, name='block06')
+    print("pool6: ", pool6.shape)
+
     pool6 = tf.reshape(pool6, shape=[-1, 1, 1, 8192]) 
+    print("pool6: ", pool6.shape)
+
     pred = tf.layers.conv2d(pool6, 2, (1, 1), name='pred', padding='same')
     pred = tf.contrib.layers.flatten(pred)
 
